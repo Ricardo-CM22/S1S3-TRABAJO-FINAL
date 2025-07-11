@@ -1,0 +1,176 @@
+/* General */
+body {
+  font-family: 'Segoe UI';
+  background-color: #D7D7D7;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #42daee;
+}
+
+/* Estilo de enlaces decorativos */
+
+.link-item {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 700; /* Negrita */
+  font-size: 1rem;
+  position: relative;
+  white-space: nowrap;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.link-item:hover {
+  border-bottom: 2px solid #00bcd4;
+  color: #00bcd4;
+}
+
+
+/* Carrusel */
+.carrusel-banner {
+  width: 65%;            
+  max-height: 800px;     
+  object-fit: cover;
+  margin: 40px auto;
+  border: solid 2px #121111;
+  display: block;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  transition: opacity 0.3s ease;
+}
+
+
+
+/* Marcas */
+.marca-logo {
+  height: 40px;
+  margin: 2px;
+}
+
+
+
+/* Títulos */
+h1 {
+  font-weight: 700;
+  color: #1c1c1c;
+  border-bottom: 2px solid #00bcd4;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+.section-title {
+  background-color: #00bcd4;
+  color: white;
+  font-weight: bold;
+  padding: 6px 15px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 20px;
+}
+
+/* Cards de producto */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+}
+
+.card-title {
+  font-size: 1rem;
+  text-transform: none;
+}
+
+/* Botón ver mas */
+
+.btn-ver-mas {
+  background-color: #16DDC8;
+  color: #ffffff;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+.btn-ver-mas:hover {
+  background-color: #00bcd4;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+/* Footer */
+footer {
+  font-size: 0.85rem;
+  background-color: #212529;
+  color: #f1f1f1;
+  padding: 2rem 0;
+}
+
+footer h3 {
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 6px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+footer ul li a:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+
+.carrusel-banner {
+    width: 95%;
+    max-height: 400px;
+    margin: 15px;
+  }
+
+
+  .link-item {
+    font-size: 0.85rem;
+  }
+
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+
+  .section-title {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+
+  footer .text-center img {
+    width: 100px;
+  }
+}

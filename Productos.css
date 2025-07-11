@@ -1,0 +1,35 @@
+/* Estilo exclusivo */
+.Productos {
+  background-color: #D7D7D7;
+  padding: 1px 45px 0px 55px;
+  border-radius: 12px;
+  margin: 10px;   
+  width: 97%;
+}
+
+.Productos-card {
+  border: 1px solid #000000;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  padding: 10px;
+  width: 95%;
+}
+
+.Productos-img {
+  object-fit: cover;
+  aspect-ratio: 4/6;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Botón Comprar */
+.btn-dark {
+  background-color: #00bcd4;;
+  border-color: black;
+  transition: background-color 0.2s ease;
+  font-weight: 500;
+}
+
+.btn-dark:hover {
+  background-color: #0196a3; /* o el color que tú quieras para el hover */
+}
